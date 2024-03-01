@@ -1,0 +1,152 @@
+.swiper-image {
+  width: 100%;
+  height: 60vh;
+}
+
+.swiper-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-banner {
+  width: auto;
+  min-height: 60vh;
+  /* background-color: black; */
+  background-color: rgba(55, 214, 228, 0.44);
+
+}
+
+.main-banner-image img {
+  width: 100%;
+  height: 100%;
+  /* mix-blend-mode:luminosity; */
+  /* object-fit: contain; */
+}
+
+.main-banner-image {
+  width: 70%;
+  height: 45vh;
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* align-items: center;
+  text-align: center; */
+  justify-content: center;
+  gap: 30%;
+}
+
+.smartphone_add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.main-banner a {
+  text-decoration: none !important;
+}
+
+.main-banner p:nth-child(1) {
+  font-size: 45px;
+  font-weight: bold;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: start; */
+}
+
+.main-banner p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(182, 21, 117, 1);
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: start; */
+
+
+}
+
+.main-banner-title {
+  align-items: self-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main-banner-title span {
+  color: rgba(60, 38, 129, 1);
+}
+
+
+
+.home-slidebar {
+  width: 100%;
+  height: 45vh;
+  background-color: white;
+
+
+}
+
+.homecarosel img {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.homecarosel-image {
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+  gap: 5px;
+}
+
+.home-slidebar-section p {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.customer-support {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.customer-support-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+  background-color: #ebe8e8;
+  padding: 10px;
+  width: 17%;
+  display: flex;
+  gap: 15px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+
+}
+
+.icon {
+  font-size: 25px;
+  color: red;
+  margin-top: -0.6rem;
+}
+
+.details h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.details p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
